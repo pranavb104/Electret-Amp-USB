@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TQFP48")(type "KiCad")(uri "${KIPRJMOD}/CM108B/TQFP48.pretty")(options "")(descr ""))
+)
