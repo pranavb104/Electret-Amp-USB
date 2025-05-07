@@ -4266,107 +4266,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND1"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 144.78 109.22)
@@ -4379,18 +4278,6 @@
 			(type none)
 		)
 		(uuid 14d9055a-6c61-40d4-af9c-61515da94ae5)
-	)
-	(rectangle
-		(start 118.11 74.295)
-		(end 135.89 92.71)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5b451c05-5b7d-4b6d-a52d-51b38c7b8ed8)
 	)
 	(rectangle
 		(start 248.92 22.225)
@@ -4458,16 +4345,6 @@
 			)
 		)
 		(uuid "6a158bf2-4a3e-4d81-a76e-70f87112b590")
-	)
-	(text "AUDIO OUT GND"
-		(exclude_from_sim no)
-		(at 127 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ade4d10b-cfd8-489c-af29-caadd114dc3a")
 	)
 	(text "USB MINI INPUT"
 		(exclude_from_sim no)
@@ -5038,16 +4915,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 25.4) (xy 106.68 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16075cf3-2565-4c56-aa68-5224842310c9")
-	)
-	(wire
-		(pts
 			(xy 170.18 135.89) (xy 176.53 135.89)
 		)
 		(stroke
@@ -5115,16 +4982,6 @@
 			(type default)
 		)
 		(uuid "2343f35f-7c21-4220-abab-c5ac539bd77b")
-	)
-	(wire
-		(pts
-			(xy 123.19 80.01) (xy 123.19 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2444ff97-ac81-4366-bd5d-0b6d5fbecf97")
 	)
 	(wire
 		(pts
@@ -5448,7 +5305,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 25.4) (xy 99.06 25.4)
+			(xy 93.98 25.4) (xy 102.87 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5685,16 +5542,6 @@
 			(type default)
 		)
 		(uuid "8b761bf2-e629-4e9d-93ff-09dd9ffa4d62")
-	)
-	(wire
-		(pts
-			(xy 130.81 80.01) (xy 130.81 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7a333e-babb-4993-87da-e50d1f7a9c79")
 	)
 	(wire
 		(pts
@@ -6320,7 +6167,7 @@
 	)
 	(global_label "9V_BAT"
 		(shape input)
-		(at 110.49 25.4 0)
+		(at 102.87 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6330,7 +6177,7 @@
 		)
 		(uuid "239bda9a-4a21-4123-a940-180db9a1471d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.0671 25.4 0)
+			(at 112.4471 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,74 +7099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 102.87 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "195d1299-ade4-4e3b-a38a-c6d0e3ed2b02")
-		(property "Reference" "R11"
-			(at 102.87 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 102.87 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.87 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 102.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47ce873a-96b7-4916-a417-14587343baa9")
-		)
-		(pin "1"
-			(uuid "a48939ea-0537-4ee5-8a8a-d179de28d43d")
-		)
-		(instances
-			(project "aom-preamp"
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:PC817")
 		(at 238.76 132.08 0)
 		(unit 1)
@@ -7745,72 +7524,6 @@
 			(project ""
 				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 57.15 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26256232-9d41-4e8e-8bf4-8a585f3a729c")
-		(property "Reference" "#PWR04"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 57.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bbe1f6b-3fe6-4fd6-8729-c1b604f11857")
-		)
-		(instances
-			(project "aom-preamp"
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8651,73 +8364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 127 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "49828f50-2526-4429-923e-fa614ce24fc6")
-		(property "Reference" "JP3"
-			(at 130.556 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PullUp"
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 127 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 127 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "798f74f9-7ebb-43f5-9a6b-f1a83eb8e5c9")
-		)
-		(pin "2"
-			(uuid "d969f738-4cb0-4e99-9a68-cfc9276604f0")
-		)
-		(instances
-			(project "aom-preamp"
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 80.01 77.47 90)
 		(unit 1)
@@ -8786,6 +8432,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534af7f9-35f0-4104-b9ab-31af02151b24")
+		(property "Reference" "#PWR021"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70bff970-7c9a-47a1-8349-fd6590b4f444")
+		)
+		(instances
+			(project "aom-preamp"
+				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 212.09 33.02 0)
 		(unit 1)
@@ -8848,72 +8560,6 @@
 			(project ""
 				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 123.19 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "694cd607-84d4-4e44-b2bc-43e61ae3736c")
-		(property "Reference" "#PWR03"
-			(at 123.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 123.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7e46b1f-0a4a-492e-a58f-e096271985c0")
-		)
-		(instances
-			(project ""
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9115,6 +8761,72 @@
 			(project "aom-preamp"
 				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c288b53-2ba5-4329-ba12-95c61df93e8a")
+		(property "Reference" "#PWR018"
+			(at 44.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b66ba4c5-22df-4513-9655-5c903c180aad")
+		)
+		(instances
+			(project "aom-preamp"
+				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9683,139 +9395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 273.05 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ca345fb-30f5-42b6-990a-c37cb5a9a111")
-		(property "Reference" "#PWR018"
-			(at 273.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 273.05 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 273.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c4c85cf-c774-492c-aa4b-f4095ae573aa")
-		)
-		(instances
-			(project "aom-preamp"
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 44.45 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e1ece70-d97d-4a78-8888-305645c32540")
-		(property "Reference" "#PWR010"
-			(at 44.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 44.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75345b63-a21e-4e35-bc7c-3b968a472b0e")
-		)
-		(instances
-			(project "aom-preamp"
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
+		(lib_id "power:GND")
 		(at 129.54 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9823,8 +9403,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f3074c6-8773-4fce-9b1a-39d1f46af282")
-		(property "Reference" "#PWR017"
+		(uuid "9fe86c13-2011-46ed-8049-92207641bd12")
+		(property "Reference" "#PWR022"
 			(at 129.54 45.72 0)
 			(effects
 				(font
@@ -9833,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 129.54 44.45 0)
 			(effects
 				(font
@@ -9859,7 +9439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 129.54 39.37 0)
 			(effects
 				(font
@@ -9869,12 +9449,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "decffd62-4a2f-49fc-a975-c67e20b51a60")
+			(uuid "f370c64f-d624-407e-9c21-f15cee9f4da1")
 		)
 		(instances
 			(project "aom-preamp"
 				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10409,6 +9989,72 @@
 			(project ""
 				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e484bd-1b32-49d5-bcdf-eb5c75cb206d")
+		(property "Reference" "#PWR09"
+			(at 273.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c8c05fd-d11e-478e-9c6c-55db93f8860a")
+		)
+		(instances
+			(project "aom-preamp"
+				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11027,72 +10673,6 @@
 			(project "aom-preamp"
 				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d56cb8ca-7534-4402-96f1-ecddde077db6")
-		(property "Reference" "#PWR09"
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20dc1647-58af-4932-8681-9d6f19adec06")
-		)
-		(instances
-			(project "aom-preamp"
-				(path "/7c7da900-ba65-4dfe-8c38-27e5096b20c0"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
