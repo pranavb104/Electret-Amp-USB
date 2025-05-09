@@ -5835,16 +5835,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 53.34) (xy 171.45 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c616cf56-0c0c-42f0-9835-214cab0163f4")
-	)
-	(wire
-		(pts
 			(xy 67.31 25.4) (xy 67.31 34.29)
 		)
 		(stroke
@@ -6231,6 +6221,28 @@
 			)
 		)
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 158.75 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "377487da-5413-4185-97b1-84288a89d00c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3638 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DM"
 		(shape input)
 		(at 176.53 138.43 0)
@@ -6385,28 +6397,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 171.45 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a119d04-badb-46eb-945e-6d402bb5f32d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.3338 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "9V_BAT"
 		(shape input)
 		(at 129.54 29.21 90)
@@ -6539,28 +6529,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 177.8 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c15453c1-f847-4128-a3d1-7884573f407f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.6838 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "9V_BAT"
 		(shape input)
 		(at 252.73 125.73 90)
@@ -6596,6 +6564,28 @@
 		(uuid "d8a59cfa-7d0b-4542-a53a-ef397b050f01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.4519 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 185.42 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de7e2b0c-b5f6-46fb-a3e4-1f5c994d8ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.0338 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,16 +8623,15 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 162.56 53.34 90)
+		(at 181.61 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73efafcc-812e-444a-8f15-d374587084cd")
 		(property "Reference" "F1"
-			(at 162.56 46.99 90)
+			(at 183.896 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8639,7 @@
 			)
 		)
 		(property "Value" "MF-FSMF050X-2"
-			(at 162.56 49.53 90)
+			(at 182.372 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8647,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 167.64 52.07 0)
+			(at 186.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 53.34 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8666,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 162.56 53.34 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
