@@ -4925,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 130.81) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9435af-4898-43ad-bf20-f9cfcac61cbf")
+	)
+	(wire
+		(pts
 			(xy 158.75 59.69) (xy 168.91 59.69)
 		)
 		(stroke
@@ -5665,7 +5675,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 130.81) (xy 177.8 130.81)
+			(xy 175.26 130.81) (xy 182.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6575,7 +6585,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 185.42 130.81 0)
+		(at 194.31 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6585,7 +6595,7 @@
 		)
 		(uuid "de7e2b0c-b5f6-46fb-a3e4-1f5c994d8ccc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0338 130.81 0)
+			(at 200.9238 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7393,8 +7403,8 @@
 				)
 			)
 		)
-		(property "Value" "160R@ 100MhZ"
-			(at 177.8 127.508 90)
+		(property "Value" "30mOhm"
+			(at 174.752 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7547,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "+100uF"
 			(at 109.601 52.07 90)
 			(effects
 				(font
@@ -7545,7 +7555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 114.3 56.1848 0)
 			(effects
 				(font
@@ -8311,7 +8321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 68.2752 97.79 0)
 			(effects
 				(font
@@ -8623,7 +8633,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 181.61 130.81 90)
+		(at 186.69 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8631,7 +8641,7 @@
 		(dnp no)
 		(uuid "73efafcc-812e-444a-8f15-d374587084cd")
 		(property "Reference" "F1"
-			(at 183.896 135.128 90)
+			(at 187.706 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8649,7 @@
 			)
 		)
 		(property "Value" "MF-FSMF050X-2"
-			(at 182.372 133.096 90)
+			(at 187.452 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +8657,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 186.69 129.54 0)
+			(at 191.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,7 +8667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 130.81 0)
+			(at 186.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8676,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 181.61 130.81 0)
+			(at 186.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +9272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "160R @ 100Mhz"
+		(property "Value" "30mOhm"
 			(at 164.338 148.59 0)
 			(effects
 				(font
@@ -9485,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Audio-Connectors_SHOU-HAN-PJ-320-3P-SMT_C17701688.html"
 			(at 29.21 68.58 0)
 			(effects
 				(font
@@ -9494,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C17701688"
 			(at 29.21 68.58 0)
 			(effects
 				(font
@@ -9657,7 +9667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 53.34 70.1548 0)
 			(effects
 				(font
@@ -10214,7 +10224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 68.2752 41.91 0)
 			(effects
 				(font
@@ -10353,7 +10363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 58.1152 92.71 0)
 			(effects
 				(font
